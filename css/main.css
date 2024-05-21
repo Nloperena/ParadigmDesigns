@@ -492,6 +492,7 @@ p:last-child {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: space-around;
 }
 
 .row .col-one-half {
@@ -546,108 +547,6 @@ p:last-child {
 .row [class^="col-"]:last-child {
   margin-right: 0;
 }
-
-
-
-  #mc_embed_signup {
-    background: #333;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 600px;
-    margin: 20px auto;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    text-align: center;
-    color: #fff;
-  }
-
-  #mc_embed_signup h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-
-  #mc_embed_signup .mc-field-group {
-    margin-bottom: 15px;
-    text-align: left;
-  }
-
-  #mc_embed_signup .mc-field-group label {
-    display: block;
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 5px;
-  }
-
-  #mc_embed_signup .mc-field-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 14px;
-    color: #333;
-  }
-
-  #mc_embed_signup .mc-field-group input:focus {
-    border-color: #007BFF;
-    outline: none;
-  }
-
-  #mc_embed_signup .button {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    display: inline-block;
-    width: auto;
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  #mc_embed_signup .button:hover {
-    background-color: #0056b3;
-  }
-
-  #mc_embed_signup .optionalParent {
-    text-align: center;
-    margin-top: 10px;
-  }
-
-  #mc_embed_signup .optionalParent a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-
-  #mc_embed_signup .optionalParent a:hover {
-    text-decoration: underline;
-  }
-
-  .refferal_badge {
-    margin-top: 20px;
-  }
-
-  .response {
-    margin-top: 15px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  #mce-error-response {
-    color: red;
-  }
-
-  #mce-success-response {
-    color: green;
-  }
-
-
 
 @media only screen and (max-width: 1023px) {
   .row [class^="col-"] {
